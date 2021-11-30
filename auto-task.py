@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-from pymouse import PyMouse
+#from pymouse import PyMouse
 import time
 import os
 import sys
@@ -27,10 +27,12 @@ def operate(act_type, x1=0, y1=0, x2=0, y2=0, loop="false", lpct=0, interval=0):
     elif act_type == 5: #sleep
         time.sleep(x1)
         return
+    #elif act_type == 6: #Launch APP
+    #    cmd = "adb shell am -n start " + app
     if lpct > 0 and loop == "True":
         while lpct > 0:
             os.system(cmd)
-            time.sleep(interval)
+            #time.sleep(interval)
             lpct -= 1
     else:
         os.system(cmd)
