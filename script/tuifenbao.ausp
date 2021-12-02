@@ -1,2 +1,5 @@
 #返回
-3, 0, 0, 0, 0, True, 100, 15
+LOOP: *
+    sleep, 10
+    back
+END

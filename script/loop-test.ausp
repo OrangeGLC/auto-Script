@@ -1,17 +1,7 @@
 #loop test
-LOOP: 2
-    #loop1-1
-    1, 0, 0
-    LOOP: 2
-        #loop2-1
-        1, 33, 33
-        LOOP: 2
-            #loop3
-            1, 9, 9
-        END
-        #loop2-2
-        1, 6, 6
+LOOP: 3
+    #test1
+    LOOP: 3
+        #test2
     END
-    #loop1-2
-    1, 88, 88
 END
