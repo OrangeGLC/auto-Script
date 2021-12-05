@@ -1,0 +1,68 @@
+#打开 
+lauch, me.ele/me.ele.Launcher 
+#点击0元领水果
+#领水滴
+click, 100, 1860
+#签到
+#click, 943, 1130
+#每日餐点
+click, 940, 1344
+#浏览
+click, 946, 2220
+sleep, 18
+back
+click, 946, 2220
+sleep, 2
+#浏览2
+click, 946, 2220
+sleep, 18
+back
+click, 946, 2220
+sleep, 2
+#向上滑动
+swipe, 550, 2220, 570, 1390
+#点击去看看
+click, 950, 1115
+back
+click, 950, 1115
+sleep, 2
+#点击去看看
+click, 950, 1350
+back
+click, 950, 1350
+sleep, 2
+#点击去看看
+click, 946, 1562
+back
+click, 946, 1562
+sleep, 2
+#点击去看看
+click, 946, 1788
+back
+click, 946, 1788
+sleep, 2
+#点击去看看
+click, 956, 1999
+back
+click, 956, 1999
+sleep, 2
+#点击去看看
+click, 949, 2238
+back
+click, 949, 2238
+sleep, 2
+#滑动
+swipe, 550, 2220, 570, 1390
+click, 950, 1115
+back
+click, 950, 1115
+sleep, 2
+#点击去看看
+click, 950, 1350
+back
+click, 950, 1350
+sleep, 2
+#点击去看看
+click, 946, 1562
+back
+click, 946, 1562

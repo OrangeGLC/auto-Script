@@ -1,0 +1,7 @@
+#loop test
+LOOP: 3
+    #test1
+    LOOP: 3
+        #test2
+    END
+END
